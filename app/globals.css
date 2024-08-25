@@ -4,8 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-hex: #070011;
-
+  --background-hex: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +16,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-hex);
+  overflow: hidden;
 }
 .globe {
   position: absolute;

@@ -1,0 +1,38 @@
+.toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 99;
+    h1{
+        color: #000000;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+.MuiDrawer-paperAnchorRight{
+    background: transparent !important;
+    box-shadow: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.MuiDrawer-paperAnchorRight{
+    margin: 40px !important;
+    height: 100% !important;
+    background: #FFFFFF !important;
+    border-radius: 10px !important;
+    height: auto !important;
+    padding: 20px !important;
+    min-height: 90vh !important;
+    display: flex !important;
+    justify-content: start !important;
+    flex-direction: column !important;
+}
+.MuiButtonBase-root{
+    border-radius: 10px !important;
+}

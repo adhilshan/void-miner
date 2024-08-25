@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Void Mining",
-  description: "Love from Void Team 💖",
+  title: "Void | A token for decentralized AI",
+  description: "Decentralizing AI for a better future || Love from Void Team 💖",
 };
 
 export default function RootLayout({ children }) {
