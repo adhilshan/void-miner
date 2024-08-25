@@ -22,7 +22,8 @@ function ActionDes() {
   return (
     <div className='des'>
       <h2>
-        Decentralizing{(window.innerWidth < "900")?<br/>:" "}AI{(window.innerWidth < "900")?" ":<br/>}for a better future.
+    {(typeof window !== "undefined")?"Decentralizing"+(window.innerWidth < "900")?<br/>:" "+"AI"+(window.innerWidth < "900")?" ":"<br/>for a better future."
+        
       </h2>
       <div className='line1'></div>
       <div className='line2'></div>
